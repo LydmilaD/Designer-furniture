@@ -124,6 +124,10 @@ img {
   padding-top: 5px;
 }
 
+.burgerMenu{
+  display: none;
+}
+
 @media (max-width: 1023px) {
   .page-header__wrapper {
     padding-top: 50px;
@@ -952,7 +956,9 @@ img {
   font-size: 20px;
   line-height: 27px;
   color: #303032;
- }
+  text-align: center;
+}
+ 
  .card-new span,.main-new-flex_right span {
    font-size: 28px;
    font-weight: 600;
@@ -993,16 +999,14 @@ img {
   flex-direction: column;
   align-items: center;
   width: 655px;
-  margin-left: 250px;
-  margin-bottom: 100px;
+  margin-bottom: 25px;
   margin-top: 82px;
 }
-.comment{
-  position: relative;
+.reviews--slider {
   display: flex;
-  
-
+  justify-content: center;
 }
+
 .reviews-flex img{
   border-radius: 40px;
 }
@@ -1127,10 +1131,14 @@ button{
   margin-top: 106px;
   display: flex;
 }
+
+
+
 .footer-contacts-flex{
     width: 610px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
 }
 .contacts{
   display: flex;
@@ -1151,7 +1159,7 @@ button{
 }
 .footer-menu-flex{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between; 
     width: 610px;
 }
 .footer-menu a{
@@ -1179,6 +1187,7 @@ button{
   font-size: 10px;
   font-weight: 400;
 }
+
 .swiper-button-prev, .swiper-button-next{
   
   background-color: #ffffff;
@@ -1195,4 +1204,58 @@ button{
 .btn_arrow{
   width: 9px;
   height: 9px;
+}
+@media (max-width: 1024x){
+  .main-new-flex {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 426px) {
+  .container{
+    width: 380px;
+  }
+  .burgerMenu{
+    display: block;
+    margin-left: 44px;
+    margin-top: 4px;
+    cursor: pointer;
+  }
+ .new{
+  margin-top: -140px;
+  }
+  .site-nav--no-js {
+    display: none;
+  }
+  
+  .footer-menu-flex{
+    justify-content: flex-start;
+    width: 410px;
+    
+  }
+  .main-new-flex{
+  justify-content: center;
+  }
+  .main-new-flex_left, .main-new-flex_right {
+    justify-content: center;
+}
+.card-new {
+  width: 287px;
+  height: 289px;
+  margin-right: 0;
+}
+.main-new-flex_right{
+  margin-right: 0px;
+  margin-top: 25px;
+  width: 289px;
+  background-color: yellow;
+}
+.main-new-flex_right img {
+  margin: 0;
+  height: 199px;
+  width: 209px;
+}
 }
