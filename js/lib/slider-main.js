@@ -43,3 +43,18 @@ function mainSlider () {
 };
 
 mainSlider();
+mySwiper = new Swiper('.main-screen__slider--comment',
+{
+  cssMode: true,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".main-screen__slider--comment",
+  },
+  mousewheel: true,
+  keyboard: true,
+});
+ 
