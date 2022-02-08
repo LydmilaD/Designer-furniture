@@ -1205,14 +1205,23 @@ button{
   width: 9px;
   height: 9px;
 }
-@media (max-width: 1024x){
+@media (max-width: 1025px){
   .main-new-flex {
     justify-content: center;
   }
 }
 @media (max-width: 768px) {
+  .contacts {
+    flex-direction: column;
+  }
+  .mail{
+    margin-top: 20px;
+  }
+  .footer-menu-flex {
+    margin-right: 90px;
+  }
 
-}
+  }
 
 @media (max-width: 426px) {
   .container{
@@ -1224,17 +1233,42 @@ button{
     margin-top: 4px;
     cursor: pointer;
   }
+  .comment{
+    display: none;
+  }
  .new{
   margin-top: -140px;
+  }
+  .chandelier-new {
+    height: 174px;
+    margin-top: 6px;
   }
   .site-nav--no-js {
     display: none;
   }
   
+  .footer-flex {
+    
+    flex-direction: column;
+  }
+
   .footer-menu-flex{
     justify-content: flex-start;
-    width: 410px;
-    
+    width: 300px;
+    flex-wrap: wrap;
+  }
+.footer-menu{
+  margin-right: 61px;
+  margin-top: 20px;
+}
+  .footer-contacts-flex {
+  width: 300px;
+  }
+  h4{
+    text-align: center;
+  }
+  h2{
+    font-size: 20px;
   }
   .main-new-flex{
   justify-content: center;
@@ -1251,7 +1285,7 @@ button{
   margin-right: 0px;
   margin-top: 25px;
   width: 289px;
-  background-color: yellow;
+ 
 }
 .main-new-flex_right img {
   margin: 0;
