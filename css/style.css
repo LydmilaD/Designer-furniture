@@ -1277,14 +1277,22 @@ button{
     justify-content: center;
 }
 .card-new {
-  width: 287px;
-  height: 289px;
+  width: 347px;
+  height: 305px;
   margin-right: 0;
+}
+.card-new:nth-child(1){
+  position: relative;
+  height: 125px;
+}
+.card-new h2{
+  position: absolute;
+  left:0;
 }
 .main-new-flex_right{
   margin-right: 0px;
   margin-top: 25px;
-  width: 289px;
+  width: 365px;
  
 }
 .main-new-flex_right img {
@@ -1292,4 +1300,23 @@ button{
   height: 199px;
   width: 209px;
 }
+.last_chance::before {
+  display: none;
+}
+.last-menu{
+  display: flex;
+  justify-content: space-between;
+}
+.last_chance {
+  padding-top: 17px;
+}
+
+
+}
+
+@media (max-width: 375px){
+  .card-new, .main-new-flex_right{
+    width: 300px;
+  }
+  
 }
