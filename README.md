@@ -21,10 +21,10 @@ _____
 ____
 
 #### ___Ипользованы шрифты в проекте:___
-Open Sans
-Roboto
-Playfair Display
-Avenir Next
+* Open Sans 
+* Roboto
+* Playfair Display
+* Avenir Next
 
 В формате woff и woff2.
 Все шрифты подлючены локально с помощью каскадной таблицы стилей css/style.css и папки fonts.
