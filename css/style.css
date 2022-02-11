@@ -1018,7 +1018,12 @@ img {
   line-height: 24px;
   text-align: center;
 }
-
+.card-slaider{
+  display: none;
+  }
+  .card-noslaider{
+  display: block;
+  }
 .last_chance{
     padding-top:51px;
   }
@@ -1310,7 +1315,23 @@ button{
 .last_chance {
   padding-top: 17px;
 }
-
+.card-slaider{
+  display: block;
+  }
+  .card-noslaider{
+  display: none;
+  }
+  .button{
+  display: none;
+  }
+  .cards{
+  margin-top: 25px;
+  width: 365px;
+  }
+  .cards:hover {
+    border: none;
+   
+  }
 
 }
 
