@@ -5,7 +5,7 @@ ____
 ### ___Как запустить проект:___
 
 1. Открыть ветку task-1.
-2. Клонируем в текущую папку с помощью команды: git clone https://github.com/LydmilaD/Designer-furniture.git.
+2. Клонируем в текущую папку с помощью команды: git clone https://github.com/LydmilaD/Designer-furniture.git
 3. Открываем файл index.html.
 
 ___
